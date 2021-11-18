@@ -19,7 +19,12 @@
     <div id="app">
       <navbar></navbar>
       <div class="banner"></div>
-      <component class="title" />
+      <component class="title"></component>
+      <div class="flex">
+        <div v-for="(comida,i) in comidas" key="i">
+          <card :comida="comida"></card>
+        </div>
+      </div>
     </div>
   </body>
 </html>
