@@ -1,0 +1,55 @@
+:root {
+  --main-primary-color: #3c40c6;
+  --main-secondary-color: #ffc048;
+  --main-font-color: #1e272e;
+  --main-secondary-font-color: #d2dae2;
+  --white: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: var(--main-font-color);
+}
+nav {
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  background-color: var(--main-primary-color);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+p {
+  margin: auto;
+  align-self: center;
+  width: 80%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.banner {
+  top: 50px;
+  width: 100vw;
+  height: 500px;
+  background-image: url("https://dam.cocinafacil.com.mx/wp-content/uploads/2020/10/bebidas-de-cafe-test.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  text-align: center;
+}
