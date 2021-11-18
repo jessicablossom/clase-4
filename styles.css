@@ -56,10 +56,13 @@ p {
   text-align: center;
 }
 .flex {
-  width: 85%;
+  border: red 1px solid;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  width: 60%;
   margin: auto;
 }
 
